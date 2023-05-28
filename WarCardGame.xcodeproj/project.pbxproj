@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D067DF52A2328400022A59B /* startScreenNONAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DEF2A23283F0022A59B /* startScreenNONAME.png */; };
+		1D067DF62A2328400022A59B /* GAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF02A23283F0022A59B /* GAME.png */; };
+		1D067DF72A2328400022A59B /* Popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF12A23283F0022A59B /* Popup.png */; };
+		1D067DF82A2328400022A59B /* startScreenWITHNAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF22A2328400022A59B /* startScreenWITHNAME.png */; };
+		1D067DF92A2328400022A59B /* RESULT1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF32A2328400022A59B /* RESULT1.png */; };
+		1D067DFA2A2328400022A59B /* RESULT2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF42A2328400022A59B /* RESULT2.png */; };
 		1D0998AE2A20A2160007EB28 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0998AD2A20A2160007EB28 /* ResultViewController.swift */; };
 		1D68ED722A1E45090051B948 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68ED712A1E45090051B948 /* GameViewController.swift */; };
 		1DCAF9072A1DF1F400F22C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAF9062A1DF1F400F22C48 /* AppDelegate.swift */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D067DEF2A23283F0022A59B /* startScreenNONAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreenNONAME.png; sourceTree = "<group>"; };
+		1D067DF02A23283F0022A59B /* GAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GAME.png; sourceTree = "<group>"; };
+		1D067DF12A23283F0022A59B /* Popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Popup.png; sourceTree = "<group>"; };
+		1D067DF22A2328400022A59B /* startScreenWITHNAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreenWITHNAME.png; sourceTree = "<group>"; };
+		1D067DF32A2328400022A59B /* RESULT1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RESULT1.png; sourceTree = "<group>"; };
+		1D067DF42A2328400022A59B /* RESULT2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RESULT2.png; sourceTree = "<group>"; };
 		1D0998AD2A20A2160007EB28 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		1D68ED712A1E45090051B948 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1DCAF9032A1DF1F400F22C48 /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D067DEE2A2326EF0022A59B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1D067DF02A23283F0022A59B /* GAME.png */,
+				1D067DF12A23283F0022A59B /* Popup.png */,
+				1D067DF32A2328400022A59B /* RESULT1.png */,
+				1D067DF42A2328400022A59B /* RESULT2.png */,
+				1D067DEF2A23283F0022A59B /* startScreenNONAME.png */,
+				1D067DF22A2328400022A59B /* startScreenWITHNAME.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		1D0998AC2A207D1F0007EB28 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +79,7 @@
 		1DCAF8FA2A1DF1F400F22C48 = {
 			isa = PBXGroup;
 			children = (
+				1D067DEE2A2326EF0022A59B /* Images */,
 				1DCAF9052A1DF1F400F22C48 /* WarCardGame */,
 				1DCAF9042A1DF1F400F22C48 /* Products */,
 			);
@@ -139,8 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D067DF72A2328400022A59B /* Popup.png in Resources */,
+				1D067DF52A2328400022A59B /* startScreenNONAME.png in Resources */,
 				1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */,
+				1D067DF62A2328400022A59B /* GAME.png in Resources */,
 				1DCAF9102A1DF1F600F22C48 /* Assets.xcassets in Resources */,
+				1D067DF82A2328400022A59B /* startScreenWITHNAME.png in Resources */,
+				1D067DF92A2328400022A59B /* RESULT1.png in Resources */,
+				1D067DFA2A2328400022A59B /* RESULT2.png in Resources */,
 				1DCAF90E2A1DF1F400F22C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
