@@ -1,4 +1,6 @@
 import UIKit
+import CoreLocation
+
 
 class MenuController: UIViewController {
     
@@ -15,12 +17,16 @@ class MenuController: UIViewController {
     
     var isLeftSide: Bool?
     
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         checkUsernameSaved()
         
         configureAlertController(alertController: alertController)
+        
+        configureLocation()
         
         showImageDirectionByRandomPoint()
     }
@@ -97,15 +103,21 @@ extension MenuController {
         alertController.addAction(cancelAction)
     }
     
+    func configureLocation() {
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+    }
+    
     func showImageDirectionByRandomPoint() {
-        if (isPointInLeftHalfOfScreen(point: getRandomPointOnScreen())) {
-            // Point is in Left half side of screen, show West direction image
+        if (isPointLeftOfPhone(point: getlocation())) {
+            // Point is in Left half side, show West direction image
             westImage.isHidden = false
             eastImage.isHidden = true
             
             isLeftSide = true
         } else {
-            // Point is in Right half side of screen, show East direction image
+            // Point is in Right half side, show East direction image
             westImage.isHidden = true
             eastImage.isHidden = false
             
@@ -123,7 +135,7 @@ extension MenuController {
 
 //MARK: - Additional functions
 
-extension MenuController {
+extension MenuController: CLLocationManagerDelegate {
     
     func checkUsernameSaved() {
         // Check if username is saved in UserDefaults
@@ -142,20 +154,24 @@ extension MenuController {
         }
     }
     
-    func getRandomPointOnScreen() -> CGPoint {
-        let screenWidth = UIScreen.main.bounds.width
-        let screenHeight = UIScreen.main.bounds.height
+    func getlocation() -> CGPoint {
+        // Set default latitude and longitude values
+        let latitude = 37.7749
+        let longitude = -122.4194
         
-        let randomX = CGFloat.random(in: 0..<screenWidth)
-        let randomY = CGFloat.random(in: 0..<screenHeight)
-        
-        let point = CGPoint(x: randomX, y: randomY)
+        let point = CGPoint(x: latitude, y: longitude)
         
         return point
     }
     
-    func isPointInLeftHalfOfScreen(point: CGPoint) -> Bool {
-        let screenWidth = UIScreen.main.bounds.width
-        return point.x < screenWidth / 2
+    func isPointLeftOfPhone(point: CGPoint) -> Bool {
+        guard let currentLocation = locationManager.location else {
+            // Location information is unavailable, default to left side
+            return true
+        }
+        
+        let currentLongitude = currentLocation.coordinate.longitude
+        
+        return point.y < currentLongitude
     }
 }
