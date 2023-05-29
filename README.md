@@ -8,7 +8,7 @@ This is a simple card game iOS application written in Swift. The game involves t
 -   Allows the user to enter their name or use a previously saved name.
 - Presents an alert where the user can enter their name. The name must consist of alphabetic characters only and cannot be empty.
 -   Saves the user's name using UserDefaults for future sessions.
--   Displays a random image indicating the left or right side of the screen, determining the player's position in the game.
+-   Displays image indicating the left or right side of default location from current location, determining the player's position in the game.
 
 ![startScreenNONAME](Images/startScreenNONAME.png)
 ![startScreenWITHNAME](Images/startScreenWITHNAME.png)
