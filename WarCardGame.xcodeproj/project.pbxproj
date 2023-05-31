@@ -22,6 +22,7 @@
 		1DF46B6A2A27939A007C0179 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B632A27939A007C0179 /* game.png */; };
 		1DF46B6B2A27939A007C0179 /* menuWithOutName.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B642A27939A007C0179 /* menuWithOutName.png */; };
 		1DF46B6C2A27939A007C0179 /* popupName.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B652A27939A007C0179 /* popupName.png */; };
+		1DF46B6E2A27948E007C0179 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B6D2A27948E007C0179 /* launchScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1DF46B632A27939A007C0179 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
 		1DF46B642A27939A007C0179 /* menuWithOutName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuWithOutName.png; sourceTree = "<group>"; };
 		1DF46B652A27939A007C0179 /* popupName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupName.png; sourceTree = "<group>"; };
+		1DF46B6D2A27948E007C0179 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1D067DEE2A2326EF0022A59B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1DF46B6D2A27948E007C0179 /* launchScreen.png */,
 				1DF46B632A27939A007C0179 /* game.png */,
 				1DF46B5F2A279399007C0179 /* menuWithName.png */,
 				1DF46B642A27939A007C0179 /* menuWithOutName.png */,
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */,
+				1DF46B6E2A27948E007C0179 /* launchScreen.png in Resources */,
 				1DF46B6B2A27939A007C0179 /* menuWithOutName.png in Resources */,
 				1DF46B692A27939A007C0179 /* result.png in Resources */,
 				1DF46B6C2A27939A007C0179 /* popupName.png in Resources */,
