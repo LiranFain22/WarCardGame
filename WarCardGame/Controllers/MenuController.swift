@@ -3,6 +3,8 @@ import CoreLocation
 
 
 class MenuController: UIViewController {
+    let LATITUDE: Double = 37.7749
+    let LONGITUDE: Double = 34.817549168324334
     
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var userNameButton: UIButton!
@@ -155,11 +157,8 @@ extension MenuController: CLLocationManagerDelegate {
     }
     
     func getlocation() -> CGPoint {
-        // Set default latitude and longitude values
-        let latitude = 37.7749
-        let longitude = -122.4194
-        
-        let point = CGPoint(x: latitude, y: longitude)
+        // Set default LATITUDE and LONGITUDE values
+        let point = CGPoint(x: LATITUDE, y: LONGITUDE)
         
         return point
     }

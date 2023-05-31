@@ -32,6 +32,6 @@ class ResultViewController: UIViewController {
     }
     
     @IBAction func returnHomePressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "toHome", sender: self)
+        performSegue(withIdentifier: "toMenu", sender: self)
     }
 }
