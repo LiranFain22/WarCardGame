@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D067DF52A2328400022A59B /* startScreenNONAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DEF2A23283F0022A59B /* startScreenNONAME.png */; };
-		1D067DF62A2328400022A59B /* GAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF02A23283F0022A59B /* GAME.png */; };
-		1D067DF72A2328400022A59B /* Popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF12A23283F0022A59B /* Popup.png */; };
-		1D067DF82A2328400022A59B /* startScreenWITHNAME.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF22A2328400022A59B /* startScreenWITHNAME.png */; };
-		1D067DF92A2328400022A59B /* RESULT1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF32A2328400022A59B /* RESULT1.png */; };
-		1D067DFA2A2328400022A59B /* RESULT2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D067DF42A2328400022A59B /* RESULT2.png */; };
 		1D0998AE2A20A2160007EB28 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0998AD2A20A2160007EB28 /* ResultViewController.swift */; };
 		1D68ED722A1E45090051B948 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68ED712A1E45090051B948 /* GameViewController.swift */; };
 		1DCAF9072A1DF1F400F22C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAF9062A1DF1F400F22C48 /* AppDelegate.swift */; };
@@ -21,15 +15,16 @@
 		1DCAF90E2A1DF1F400F22C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF90C2A1DF1F400F22C48 /* Main.storyboard */; };
 		1DCAF9102A1DF1F600F22C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF90F2A1DF1F600F22C48 /* Assets.xcassets */; };
 		1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF9112A1DF1F600F22C48 /* LaunchScreen.storyboard */; };
+		1DEACF8B2A273C9B00F530E9 /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF842A273C9B00F530E9 /* popup.png */; };
+		1DEACF952A273DA800F530E9 /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF8E2A273DA800F530E9 /* popup.png */; };
+		1DEACF962A273DA800F530E9 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF8F2A273DA800F530E9 /* game.png */; };
+		1DEACF972A273DA800F530E9 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF902A273DA800F530E9 /* launchScreen.png */; };
+		1DEACF982A273DA800F530E9 /* locationPermission.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF912A273DA800F530E9 /* locationPermission.png */; };
+		1DEACF992A273DA800F530E9 /* startGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF922A273DA800F530E9 /* startGame.png */; };
+		1DEACF9A2A273DA800F530E9 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF932A273DA800F530E9 /* result.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D067DEF2A23283F0022A59B /* startScreenNONAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreenNONAME.png; sourceTree = "<group>"; };
-		1D067DF02A23283F0022A59B /* GAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GAME.png; sourceTree = "<group>"; };
-		1D067DF12A23283F0022A59B /* Popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Popup.png; sourceTree = "<group>"; };
-		1D067DF22A2328400022A59B /* startScreenWITHNAME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreenWITHNAME.png; sourceTree = "<group>"; };
-		1D067DF32A2328400022A59B /* RESULT1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RESULT1.png; sourceTree = "<group>"; };
-		1D067DF42A2328400022A59B /* RESULT2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RESULT2.png; sourceTree = "<group>"; };
 		1D0998AD2A20A2160007EB28 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		1D68ED712A1E45090051B948 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1DCAF9032A1DF1F400F22C48 /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +35,13 @@
 		1DCAF90F2A1DF1F600F22C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCAF9122A1DF1F600F22C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCAF9142A1DF1F600F22C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEACF842A273C9B00F530E9 /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup.png; path = ../../../../../popup.png; sourceTree = "<group>"; };
+		1DEACF8E2A273DA800F530E9 /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup.png; path = ../../../../../popup.png; sourceTree = "<group>"; };
+		1DEACF8F2A273DA800F530E9 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = ../../../../../game.png; sourceTree = "<group>"; };
+		1DEACF902A273DA800F530E9 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchScreen.png; path = ../../../../../launchScreen.png; sourceTree = "<group>"; };
+		1DEACF912A273DA800F530E9 /* locationPermission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationPermission.png; path = ../../../../../locationPermission.png; sourceTree = "<group>"; };
+		1DEACF922A273DA800F530E9 /* startGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startGame.png; path = ../../../../../startGame.png; sourceTree = "<group>"; };
+		1DEACF932A273DA800F530E9 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = result.png; path = ../../../../../result.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,13 @@
 		1D067DEE2A2326EF0022A59B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1D067DF02A23283F0022A59B /* GAME.png */,
-				1D067DF12A23283F0022A59B /* Popup.png */,
-				1D067DF32A2328400022A59B /* RESULT1.png */,
-				1D067DF42A2328400022A59B /* RESULT2.png */,
-				1D067DEF2A23283F0022A59B /* startScreenNONAME.png */,
-				1D067DF22A2328400022A59B /* startScreenWITHNAME.png */,
+				1DEACF8F2A273DA800F530E9 /* game.png */,
+				1DEACF902A273DA800F530E9 /* launchScreen.png */,
+				1DEACF912A273DA800F530E9 /* locationPermission.png */,
+				1DEACF842A273C9B00F530E9 /* popup.png */,
+				1DEACF932A273DA800F530E9 /* result.png */,
+				1DEACF8E2A273DA800F530E9 /* popup.png */,
+				1DEACF922A273DA800F530E9 /* startGame.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -165,14 +168,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D067DF72A2328400022A59B /* Popup.png in Resources */,
-				1D067DF52A2328400022A59B /* startScreenNONAME.png in Resources */,
+				1DEACF972A273DA800F530E9 /* launchScreen.png in Resources */,
+				1DEACF982A273DA800F530E9 /* locationPermission.png in Resources */,
 				1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */,
-				1D067DF62A2328400022A59B /* GAME.png in Resources */,
+				1DEACF8B2A273C9B00F530E9 /* popup.png in Resources */,
+				1DEACF992A273DA800F530E9 /* startGame.png in Resources */,
 				1DCAF9102A1DF1F600F22C48 /* Assets.xcassets in Resources */,
-				1D067DF82A2328400022A59B /* startScreenWITHNAME.png in Resources */,
-				1D067DF92A2328400022A59B /* RESULT1.png in Resources */,
-				1D067DFA2A2328400022A59B /* RESULT2.png in Resources */,
+				1DEACF962A273DA800F530E9 /* game.png in Resources */,
+				1DEACF9A2A273DA800F530E9 /* result.png in Resources */,
+				1DEACF952A273DA800F530E9 /* popup.png in Resources */,
 				1DCAF90E2A1DF1F400F22C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
