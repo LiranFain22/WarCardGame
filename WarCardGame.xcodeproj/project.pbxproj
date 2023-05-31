@@ -15,13 +15,13 @@
 		1DCAF90E2A1DF1F400F22C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF90C2A1DF1F400F22C48 /* Main.storyboard */; };
 		1DCAF9102A1DF1F600F22C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF90F2A1DF1F600F22C48 /* Assets.xcassets */; };
 		1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAF9112A1DF1F600F22C48 /* LaunchScreen.storyboard */; };
-		1DEACF8B2A273C9B00F530E9 /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF842A273C9B00F530E9 /* popup.png */; };
-		1DEACF952A273DA800F530E9 /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF8E2A273DA800F530E9 /* popup.png */; };
-		1DEACF962A273DA800F530E9 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF8F2A273DA800F530E9 /* game.png */; };
-		1DEACF972A273DA800F530E9 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF902A273DA800F530E9 /* launchScreen.png */; };
-		1DEACF982A273DA800F530E9 /* locationPermission.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF912A273DA800F530E9 /* locationPermission.png */; };
-		1DEACF992A273DA800F530E9 /* startGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF922A273DA800F530E9 /* startGame.png */; };
-		1DEACF9A2A273DA800F530E9 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEACF932A273DA800F530E9 /* result.png */; };
+		1DF46B662A27939A007C0179 /* menuWithName.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B5F2A279399007C0179 /* menuWithName.png */; };
+		1DF46B672A27939A007C0179 /* permissionLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B602A27939A007C0179 /* permissionLocation.png */; };
+		1DF46B682A27939A007C0179 /* startGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B612A27939A007C0179 /* startGame.png */; };
+		1DF46B692A27939A007C0179 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B622A27939A007C0179 /* result.png */; };
+		1DF46B6A2A27939A007C0179 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B632A27939A007C0179 /* game.png */; };
+		1DF46B6B2A27939A007C0179 /* menuWithOutName.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B642A27939A007C0179 /* menuWithOutName.png */; };
+		1DF46B6C2A27939A007C0179 /* popupName.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF46B652A27939A007C0179 /* popupName.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +35,13 @@
 		1DCAF90F2A1DF1F600F22C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCAF9122A1DF1F600F22C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCAF9142A1DF1F600F22C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DEACF842A273C9B00F530E9 /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup.png; path = ../../../../../popup.png; sourceTree = "<group>"; };
-		1DEACF8E2A273DA800F530E9 /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup.png; path = ../../../../../popup.png; sourceTree = "<group>"; };
-		1DEACF8F2A273DA800F530E9 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = ../../../../../game.png; sourceTree = "<group>"; };
-		1DEACF902A273DA800F530E9 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchScreen.png; path = ../../../../../launchScreen.png; sourceTree = "<group>"; };
-		1DEACF912A273DA800F530E9 /* locationPermission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationPermission.png; path = ../../../../../locationPermission.png; sourceTree = "<group>"; };
-		1DEACF922A273DA800F530E9 /* startGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startGame.png; path = ../../../../../startGame.png; sourceTree = "<group>"; };
-		1DEACF932A273DA800F530E9 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = result.png; path = ../../../../../result.png; sourceTree = "<group>"; };
+		1DF46B5F2A279399007C0179 /* menuWithName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuWithName.png; sourceTree = "<group>"; };
+		1DF46B602A27939A007C0179 /* permissionLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = permissionLocation.png; sourceTree = "<group>"; };
+		1DF46B612A27939A007C0179 /* startGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startGame.png; sourceTree = "<group>"; };
+		1DF46B622A27939A007C0179 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+		1DF46B632A27939A007C0179 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		1DF46B642A27939A007C0179 /* menuWithOutName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuWithOutName.png; sourceTree = "<group>"; };
+		1DF46B652A27939A007C0179 /* popupName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupName.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +58,13 @@
 		1D067DEE2A2326EF0022A59B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1DEACF8F2A273DA800F530E9 /* game.png */,
-				1DEACF902A273DA800F530E9 /* launchScreen.png */,
-				1DEACF912A273DA800F530E9 /* locationPermission.png */,
-				1DEACF842A273C9B00F530E9 /* popup.png */,
-				1DEACF932A273DA800F530E9 /* result.png */,
-				1DEACF8E2A273DA800F530E9 /* popup.png */,
-				1DEACF922A273DA800F530E9 /* startGame.png */,
+				1DF46B632A27939A007C0179 /* game.png */,
+				1DF46B5F2A279399007C0179 /* menuWithName.png */,
+				1DF46B642A27939A007C0179 /* menuWithOutName.png */,
+				1DF46B602A27939A007C0179 /* permissionLocation.png */,
+				1DF46B652A27939A007C0179 /* popupName.png */,
+				1DF46B622A27939A007C0179 /* result.png */,
+				1DF46B612A27939A007C0179 /* startGame.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -168,15 +168,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEACF972A273DA800F530E9 /* launchScreen.png in Resources */,
-				1DEACF982A273DA800F530E9 /* locationPermission.png in Resources */,
 				1DCAF9132A1DF1F600F22C48 /* LaunchScreen.storyboard in Resources */,
-				1DEACF8B2A273C9B00F530E9 /* popup.png in Resources */,
-				1DEACF992A273DA800F530E9 /* startGame.png in Resources */,
+				1DF46B6B2A27939A007C0179 /* menuWithOutName.png in Resources */,
+				1DF46B692A27939A007C0179 /* result.png in Resources */,
+				1DF46B6C2A27939A007C0179 /* popupName.png in Resources */,
+				1DF46B662A27939A007C0179 /* menuWithName.png in Resources */,
+				1DF46B682A27939A007C0179 /* startGame.png in Resources */,
+				1DF46B672A27939A007C0179 /* permissionLocation.png in Resources */,
+				1DF46B6A2A27939A007C0179 /* game.png in Resources */,
 				1DCAF9102A1DF1F600F22C48 /* Assets.xcassets in Resources */,
-				1DEACF962A273DA800F530E9 /* game.png in Resources */,
-				1DEACF9A2A273DA800F530E9 /* result.png in Resources */,
-				1DEACF952A273DA800F530E9 /* popup.png in Resources */,
 				1DCAF90E2A1DF1F400F22C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var score1Label: UILabel!
     @IBOutlet weak var player2Label: UILabel!
     @IBOutlet weak var score2Label: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     
     var winnerName: String?
     var player1Name: String?
@@ -17,6 +18,7 @@ class ResultViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         configureResult()
+        checkDraw()
     }
     
     override func viewDidLoad() {
@@ -29,6 +31,12 @@ class ResultViewController: UIViewController {
         score1Label.text = score1
         player2Label.text = player2Name
         score2Label.text = score2
+    }
+    
+    func checkDraw() {
+        if winnerLabel.text == "Draw!" {
+            titleLabel.isHidden = true
+        }
     }
     
     @IBAction func returnHomePressed(_ sender: UIButton) {

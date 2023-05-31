@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -95,10 +94,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="War Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESi-2a-J7r">
-                                <rect key="frame" x="351.66666666666669" y="20" width="149" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="War" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESi-2a-J7r">
+                                <rect key="frame" x="397" y="20" width="58" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="149" id="rZW-sR-2Ni"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="rZW-sR-2Ni"/>
                                     <constraint firstAttribute="height" constant="36" id="zTa-Ow-Sgs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
@@ -245,7 +244,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8v-ff-JAv">
                                 <rect key="frame" x="499" y="206" width="54" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAw-ei-qHV">
@@ -282,6 +281,7 @@
                         <outlet property="player2Label" destination="PMJ-WN-lNU" id="eBg-Vt-fhQ"/>
                         <outlet property="score1Label" destination="hhS-vq-0vF" id="lcP-rH-S60"/>
                         <outlet property="score2Label" destination="l8v-ff-JAv" id="DEX-9l-Myf"/>
+                        <outlet property="titleLabel" destination="nbi-Oa-8RT" id="2Em-vc-8FS"/>
                         <outlet property="winnerLabel" destination="61B-q6-TFp" id="dbl-Fv-Gal"/>
                     </connections>
                 </viewController>
@@ -294,8 +294,5 @@
         <image name="backCard" width="188" height="268"/>
         <image name="east" width="262" height="193"/>
         <image name="west" width="274" height="184"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
