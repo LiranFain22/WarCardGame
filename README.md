@@ -10,9 +10,8 @@ This is a simple card game iOS application written in Swift. The game involves t
 -   Saves the user's name using UserDefaults for future sessions.
 -   Displays image indicating the left or right side of default location from current location, determining the player's position in the game.
 
-![startScreenNONAME](Images/startScreenNONAME.png)
-![startScreenWITHNAME](Images/startScreenWITHNAME.png)
-![Popup](Images/Popup.png)
-![Game](Images/GAME.png)
-![result_1](Images/RESULT1.png)
-![result_2](Images/RESULT2.png)
+![launchScreen](Images/launchScreen.png)
+![locationPermission](Images/locationPermission.png)
+![popup](Images/popup.png)
+![startGame](Images/startGame.png)
+![result](Images/result.png)
